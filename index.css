@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 350px;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:3px dashed palevioletred;
+    width: 220px;
+    height: 260px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight:300;
+    padding: 20px;
+}
+
+h3 span {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3 span:hover {
+    color: rgb(187, 48, 187, 0.75);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.final {
+    font-size: 22px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+ul {
+   padding: 20px;
+   line-height: 22px;
+   margin-top: -10px;
+   list-style: none;
+}
+
+#boot::before {
+    content: "\2022";
+    color: rgb(5, 139, 5);
+    display: inline-block;
+    width: 20px;
+    margin-left: 0px;
+}
+
+#tail::before {
+    content: "\2022";
+    color: rgb(5, 139, 5);
+    display: inline-block;
+    width: 20px;
+    margin-left: -4px;
+}
+
+#sass::before {
+    content: "\2022";
+    color: rgb(5, 139, 5);
+    display: inline-block;
+    width: 20px;
+    margin-left: -2rem;
+}
